@@ -1,0 +1,280 @@
+
+
+@font-face {
+    font-family: 'Bluu Next';
+    src: url('../fronts/BluuNext-Bold.eot');
+    src: local('Bluu Next Bold'), local('BluuNext-Bold'),
+        url('BluuNext-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fronts/BluuNext-Bold.woff2') format('woff2'),
+        url('../fronts/BluuNext-Bold.woff') format('woff'),
+        url('../fronts/BluuNext-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Bluu Next';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #FABF59;
+   
+}
+
+.style {
+    position: relative;
+    width: 1500px;
+    height: 1271px;
+
+    background: #1D1D1D;
+}
+
+.wrepper {
+    position: absolute;
+        width: 1500px;
+        height: 740px;
+        left: 0px;
+        top: 0px;
+    
+        background: linear-gradient(179.63deg, #1D1D1D 9.82%, rgba(29, 29, 29, 0.820577) 39.19%, rgba(29, 29, 29, 0) 82.56%);
+    
+}
+
+
+
+
+ .intro{
+       position: absolute;
+        width: 1500px;
+        height: 599px;
+        left: 0px;
+        top: 71px;
+    
+        background:  url(../img/bg.jpg);
+        
+        mix-blend-mode: normal;
+
+
+} 
+
+.intro div{
+    position: absolute;
+        width: 1500px;
+        height: 309px;
+        left: 1500px;
+        top: 740px;
+    
+        background: linear-gradient(179.44deg, #1D1D1D 28.65%, rgba(29, 29, 29, 0) 58.99%);
+        transform: rotate(-180deg);
+}
+
+.header__title{
+position: absolute;
+    width: 904px;
+    height: 200px;
+    left: calc(50% - 904px/2);
+    top: 100px;
+
+    font-family: 'Bluu Next';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 125%;
+    /* or 100px */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: #FABF59;
+}
+
+.header__button{
+    position: absolute;
+        width: 300px;
+        height: 60px;
+        left: calc(50% - 300px/2);
+        top: 380px;
+        background: #F9B50C;
+            border-radius: 100px;  
+
+        font-family: 'Bluu Next';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 130%;
+                /* or 23px */
+            
+                text-align: center;
+            
+                color: #1D1D1D;
+}
+
+
+
+
+.img1{
+    position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 130px;
+        top: 692px;
+    
+        border-radius: 20px;
+}
+
+.img2{
+    position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 550px;
+        top: 692px;
+    
+        border-radius: 20px;
+}
+
+.img3{
+    position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 970px;
+        top: 692px;
+    
+        border-radius: 20px;
+}
+
+.button1{
+    box-sizing: border-box;
+    
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 36px;
+        gap: 10px;
+    
+        position: absolute;
+        width: 320px;
+        height: 59px;
+        left: calc(50% - 320px/2 - 420px);
+        top: 1112px;
+    
+        border: 1px solid #F9B50C;
+        border-radius: 100px;
+        background-color: rgba(28, 28, 28, 0);
+
+        font-family: 'Bluu Next';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 130%;
+            /* or 23px */
+        
+         
+            text-align: center;
+        
+            color: #F9B50C;
+
+            /* Inside auto layout */
+            
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+        
+        
+}
+
+.button2{
+    box-sizing: border-box;
+    
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 36px;
+        gap: 10px;
+    
+        position: absolute;
+        width: 320px;
+        height: 59px;
+        left: calc(50% - 320px/2);
+        top: 1112px;
+    
+        border: 1px solid #F9B50C;
+        border-radius: 100px;
+        background-color: rgba(28, 28, 28, 0);
+
+        
+            font-family: 'Bluu Next';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 130%;
+            /* or 23px */ 
+
+        text-align: center;
+        
+            color: #F9B50C;
+            /* Inside auto layout */
+            
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+         
+    
+}
+
+.button3{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 36px;
+    gap: 10px;
+
+    position: absolute;
+    width: 320px;
+    height: 59px;
+    left: calc(50% - 320px/2 + 420px);
+    top: 1112px;
+
+    border: 1px solid #F9B50C;
+    border-radius: 100px;
+    background-color: rgba(28, 28, 28, 0);
+
+
+    font-family: 'Bluu Next';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+
+    text-align: center;
+
+    color: #F9B50C;
+
+    /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+}
