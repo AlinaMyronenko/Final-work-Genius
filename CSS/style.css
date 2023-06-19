@@ -66,18 +66,18 @@ body{
 
 } 
 
-.intro div{
+.gradient{
     position: absolute;
         width: 1500px;
         height: 309px;
-        left: 1500px;
-        top: 740px;
+        left: 0px;
+        top: 340px;
     
         background: linear-gradient(179.44deg, #1D1D1D 28.65%, rgba(29, 29, 29, 0) 58.99%);
         transform: rotate(-180deg);
 }
 
-.header__title{
+.title{
 position: absolute;
     width: 904px;
     height: 200px;
@@ -98,7 +98,7 @@ position: absolute;
     color: #FABF59;
 }
 
-.header__button{
+.title__button{
     position: absolute;
         width: 300px;
         height: 60px;
@@ -181,9 +181,9 @@ position: absolute;
             line-height: 130%;
             /* or 23px */
         
-         
+            text-decoration: none;
             text-align: center;
-        
+           
             color: #F9B50C;
 
             /* Inside auto layout */
@@ -224,7 +224,7 @@ position: absolute;
             font-size: 18px;
             line-height: 130%;
             /* or 23px */ 
-
+        text-decoration: none;
         text-align: center;
         
             color: #F9B50C;
@@ -266,7 +266,7 @@ position: absolute;
     font-size: 18px;
     line-height: 130%;
     /* or 23px */
-
+    text-decoration: none;
     text-align: center;
 
     color: #F9B50C;
