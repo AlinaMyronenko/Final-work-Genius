@@ -1,0 +1,1082 @@
+/* inter-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v12-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-family: 'Bluu Next';
+    src: url('../fronts/BluuNext-Bold.eot');
+    src: local('Bluu Next Bold'), local('BluuNext-Bold'),
+        url('BluuNext-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fronts/BluuNext-Bold.woff2') format('woff2'),
+        url('../fronts/BluuNext-Bold.woff') format('woff'),
+        url('../fronts/BluuNext-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Bluu Next';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #FABF59;
+
+}
+
+.oll {
+position: relative;
+    width: 1500px;
+    height: 1394px;
+
+    background: #1D1D1D;
+}
+
+.title {
+position: absolute;
+    width: 693px;
+    height: 200px;
+    left: calc(50% - 693px/2 + 0.5px);
+    top: 100px;
+
+    font-family: 'Bluu Next Cyrillic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 125%;
+    /* or 100px */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: #FABF59;
+}
+
+/* mcGonagall */
+
+
+.mcGonagall {
+    position: absolute;
+        width: 295px;
+        height: 272px;
+        left: 130px;
+        top: 550px;
+    
+        background: linear-gradient(179.32deg, #0F0F0F -0.99%, rgba(15, 15, 15, 0.74) 51.85%, rgba(15, 15, 15, 0) 86.04%);
+        border-radius: 20px 20px 0px 0px;
+        transform: rotate(-180deg);
+}
+
+.mcGonagall-img-top {
+    position: absolute;
+        width: 295px;
+        height: 452px;
+        left: 130px;
+        top: 370px;
+    
+        border-radius: 20px;
+
+}
+
+
+.mcGonagall-title {
+position: absolute;
+    width: 255px;
+    height: 36px;
+    left: 150px;
+    top: 652px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    /* or 36px */
+
+
+    color: #FFFFFF;
+}
+
+.mcGonagall-text1 {
+    position: absolute;
+    width: 146px;
+    height: 22px;
+    left: 150px;
+    top: 693px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.mcGonagall-text2 {
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    left: 150px;
+    top: 718px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.mcGonagall-text3 {
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    left: 150px;
+    top: 743px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+
+.mcGonagall-button {
+    position: absolute;
+    width: 145px;
+    height: 22px;
+    left: 150px;
+    top: 780px;
+    background-color: rgba(28, 28, 28, 0);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    border: none;
+    color: #FFFFFF;
+}
+
+.mcGonagall-button img {
+
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 150px;
+
+}
+
+
+/* snape*/
+
+
+.snape-img-top {
+    position: absolute;
+    width: 295px;
+    height: 452px;
+    left: 445px;
+    top: 370px;
+
+    border-radius: 20px;
+}
+
+.snape {
+    position: absolute;
+    width: 295px;
+    height: 272px;
+    left: 445px;
+    top: 550px;
+
+    background: linear-gradient(179.32deg, #0F0F0F -0.35%, rgba(15, 15, 15, 0.74) 66.97%, rgba(15, 15, 15, 0) 95.17%);
+    border-radius: 20px 20px 0px 0px;
+    transform: rotate(-180deg);
+}
+
+.snape-title {
+    position: absolute;
+    width: 229px;
+    height: 36px;
+    left: 465px;
+    top: 652px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    /* or 36px */
+
+
+    color: #FFFFFF;
+}
+
+.snape-text1 {
+    position: absolute;
+    width: 146px;
+    height: 22px;
+    left: 465px;
+    top: 693px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.snape-text2 {
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    left: 465px;
+    top: 718px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.snape-text3 {
+    position: absolute;
+    width: 89px;
+    height: 22px;
+    left: 465px;
+    top: 743px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+
+.snape-button {
+    position: absolute;
+    width: 145px;
+    height: 22px;
+    left: 465px;
+    top: 780px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    border: none;
+    background-color: rgba(28, 28, 28, 0);
+    color: #FFFFFF;
+}
+
+.snape-button img {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 150px;
+
+}
+
+/*  hagrid */
+
+.hagrid-img-top {
+    position: absolute;
+    width: 295px;
+    height: 452px;
+    left: 760px;
+    top: 370px;
+
+
+    border-radius: 20px;
+}
+
+.hagrid {
+    position: absolute;
+    width: 295px;
+    height: 272px;
+    left: 760px;
+    top: 550px;
+
+    background: linear-gradient(179.32deg, #0F0F0F -0.35%, rgba(15, 15, 15, 0.74) 66.62%, rgba(15, 15, 15, 0) 97.14%);
+    border-radius: 20px 20px 0px 0px;
+    transform: rotate(-180deg);
+
+}
+
+.hagrid-title {
+    position: absolute;
+    width: 159px;
+    height: 36px;
+    left: 780px;
+    top: 652px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    /* or 36px */
+
+
+    color: #FFFFFF;
+}
+
+.hagrid-text1 {
+    position: absolute;
+    width: 138px;
+    height: 22px;
+    left: 780px;
+    top: 693px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.hagrid-text2 {
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    left: 780px;
+    top: 718px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.hagrid-text3 {
+    position: absolute;
+    width: 90px;
+    height: 22px;
+    left: 780px;
+    top: 743px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+
+.hagrid-button {
+    position: absolute;
+    width: 145px;
+    height: 22px;
+    left: 780px;
+    top: 780px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    border: none;
+    background-color: rgba(28, 28, 28, 0);
+    color: #FFFFFF;
+}
+
+.hagrid-button img {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 150px;
+
+}
+
+/* lupin */
+
+.lupin-img-top {
+    position: absolute;
+    width: 295px;
+    height: 452px;
+    left: 1075px;
+    top: 370px;
+
+    border-radius: 20px;
+}
+
+.lupin {
+    position: absolute;
+    width: 295px;
+    height: 272px;
+    left: 1075px;
+    top: 550px;
+
+    background: linear-gradient(179.32deg, #0F0F0F -0.35%, rgba(15, 15, 15, 0.74) 58.45%, rgba(15, 15, 15, 0) 92.43%);
+    border-radius: 20px 20px 0px 0px;
+    transform: rotate(-180deg);
+}
+
+.lupin-title {
+    position: absolute;
+    width: 165px;
+    height: 36px;
+    left: 1095px;
+    top: 652px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    /* or 36px */
+
+
+    color: #FFFFFF;
+}
+
+.lupin-text1 {
+    position: absolute;
+    width: 179px;
+    height: 22px;
+    left: 1095px;
+    top: 693px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.lupin-text2 {
+    position: absolute;
+    width: 67px;
+    height: 22px;
+    left: 1095px;
+    top: 718px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.lupin-text3 {
+    position: absolute;
+    width: 92px;
+    height: 22px;
+    left: 1095px;
+    top: 743px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.lupin-button {
+    position: absolute;
+    width: 145px;
+    height: 22px;
+    left: 1095px;
+    top: 780px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    border: none;
+    background-color: rgba(28, 28, 28, 0);
+    color: #FFFFFF;
+}
+
+.lupin-button img {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 150px;
+
+}
+
+/*  slughorn  */
+
+.slughorn-img-top {
+    position: absolute;
+    width: 295px;
+    height: 452px;
+    left: 130px;
+    top: 842px;
+
+    border-radius: 20px;
+}
+
+.slughorn {
+    position: absolute;
+    width: 295px;
+    height: 272px;
+    left: 130px;
+    top: 1022px;
+
+    background: linear-gradient(179.32deg, #0F0F0F -0.35%, rgba(15, 15, 15, 0.74) 66.62%, rgba(15, 15, 15, 0) 97.14%);
+    border-radius: 20px 20px 0px 0px;
+    transform: rotate(-180deg);
+}
+
+.slughorn-title {
+    position: absolute;
+    width: 187px;
+    height: 36px;
+    left: 150px;
+    top: 1124px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    /* or 36px */
+
+
+    color: #FFFFFF;
+}
+
+.slughorn-text1 {
+    position: absolute;
+    width: 146px;
+    height: 22px;
+    left: 150px;
+    top: 1165px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.slughorn-text2 {
+    position: absolute;
+    width: 77px;
+    height: 22px;
+    left: 150px;
+    top: 1190px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.slughorn-text3 {
+    position: absolute;
+    width: 89px;
+    height: 22px;
+    left: 150px;
+    top: 1215px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.slughorn-button {
+    position: absolute;
+    width: 145px;
+    height: 22px;
+    left: 150px;
+    top: 1252px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    border: none;
+    background-color: rgba(28, 28, 28, 0);
+    color: #FFFFFF;
+}
+
+.slughorn-button img {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 150px;
+}
+
+
+/* Chan */
+
+.umbridge-img-top {
+    position: absolute;
+    width: 295px;
+    height: 452px;
+    left: 445px;
+    top: 842px;
+
+    border-radius: 20px;
+}
+
+.umbridge {
+    position: absolute;
+    width: 295px;
+    height: 272px;
+    left: 445px;
+    top: 1022px;
+
+    background: linear-gradient(179.32deg, #0F0F0F -0.35%, rgba(15, 15, 15, 0.74) 66.62%, rgba(15, 15, 15, 0) 97.14%);
+    border-radius: 20px 20px 0px 0px;
+    transform: rotate(-180deg);
+}
+
+.umbridge-title {
+    position: absolute;
+    width: 225px;
+    height: 36px;
+    left: 465px;
+    top: 1124px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    /* or 36px */
+
+
+    color: #FFFFFF;
+}
+
+.umbridge-text1 {
+    position: absolute;
+    width: 146px;
+    height: 22px;
+    left: 465px;
+    top: 1165px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.umbridge-text2 {
+    position: absolute;
+    width: 81px;
+    height: 22px;
+    left: 465px;
+    top: 1190px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.umbridge-text3 {
+    position: absolute;
+    width: 90px;
+    height: 22px;
+    left: 465px;
+    top: 1215px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.umbridge-button {
+    position: absolute;
+    width: 145px;
+    height: 22px;
+    left: 465px;
+    top: 1252px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    border: none;
+    background-color: rgba(28, 28, 28, 0);
+    color: #FFFFFF;
+}
+
+.umbridge-button img {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 150px;
+
+}
+
+
+/* filch */
+
+
+.filch-img-top {
+    position: absolute;
+    width: 295px;
+    height: 452px;
+    left: 760px;
+    top: 842px;
+
+    border-radius: 20px;
+
+
+}
+
+.filch {
+    position: absolute;
+    width: 295px;
+    height: 272px;
+    left: 760px;
+    top: 1022px;
+
+    background: linear-gradient(179.32deg, #0F0F0F -0.35%, rgba(15, 15, 15, 0.74) 66.62%, rgba(15, 15, 15, 0) 97.14%);
+    border-radius: 20px 20px 0px 0px;
+    transform: rotate(-180deg);
+}
+
+.filch-title {
+    position: absolute;
+    width: 243px;
+    height: 36px;
+    left: 780px;
+    top: 1124px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    /* or 36px */
+
+
+    color: #FFFFFF;
+}
+
+.filch-text1 {
+    position: absolute;
+    width: 146px;
+    height: 22px;
+    left: 780px;
+    top: 1165px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.filch-text2 {
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    left: 780px;
+    top: 1190px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.filch-text3 {
+    position: absolute;
+    width: 92px;
+    height: 22px;
+    left: 780px;
+    top: 1215px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.filch-button {
+    position: absolute;
+    width: 145px;
+    height: 22px;
+    left: 780px;
+    top: 1252px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    border: none;
+    background-color: rgba(28, 28, 28, 0);
+
+    color: #FFFFFF;
+}
+
+.filch-button img {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 150px;
+
+}
+
+
+/* dumbledore */
+
+
+.dumbledore-img-top {
+    position: absolute;
+    width: 295px;
+    height: 452px;
+    left: 1075px;
+    top: 842px;
+    border-radius: 20px;
+}
+
+.dumbledore {
+    position: absolute;
+    width: 295px;
+    height: 272px;
+    left: 1075px;
+    top: 1022px;
+
+    background: linear-gradient(179.32deg, #0F0F0F -0.35%, rgba(15, 15, 15, 0.74) 63.09%, rgba(15, 15, 15, 0) 89.35%);
+    border-radius: 20px 20px 0px 0px;
+    transform: rotate(-180deg);
+}
+
+.dumbledore-title {
+    position: absolute;
+    width: 230px;
+    height: 36px;
+    left: 1095px;
+    top: 1124px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    /* or 36px */
+
+
+    color: #FFFFFF;
+}
+
+.dumbledore-text1 {
+    position: absolute;
+    width: 146px;
+    height: 22px;
+    left: 1095px;
+    top: 1165px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.dumbledore-text2 {
+    position: absolute;
+    width: 81px;
+    height: 22px;
+    left: 1095px;
+    top: 1190px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.dumbledore-text3 {
+    position: absolute;
+    width: 87px;
+    height: 22px;
+    left: 1095px;
+    top: 1215px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FABF59;
+}
+
+.dumbledore-button {
+    position: absolute;
+    width: 145px;
+    height: 22px;
+    left: 1095px;
+    top: 1252px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    border: none;
+    background-color: rgba(28, 28, 28, 0);
+    color: #FFFFFF;
+}
+
+.dumbledore-button img {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 150px;
+}
