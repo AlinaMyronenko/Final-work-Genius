@@ -1,0 +1,235 @@
+
+
+/* inter-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fronts/inter-v12-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fronts/inter-v12-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-family: 'Bluu Next';
+    src: url('../fronts/BluuNext-Bold.eot');
+    src: local('Bluu Next Bold'), local('BluuNext-Bold'),
+        url('BluuNext-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fronts/BluuNext-Bold.woff2') format('woff2'),
+        url('../fronts/BluuNext-Bold.woff') format('woff'),
+        url('../fronts/BluuNext-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Bluu Next';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #FABF59;
+
+}
+
+.oll {
+    position: relative;
+    width: 1500px;
+    min-height: 1394px;
+    height: auto;
+
+    background: #1D1D1D;
+}
+
+.title {
+    position: absolute;
+    width: 931px;
+    height: 100px;
+    left: calc(50% - 931px/2 + 0.5px);
+    top: 100px;
+
+    font-family: 'Bluu Next';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 125%;
+    /* identical to box height, or 100px */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: #FABF59;
+}
+
+.characters-conteiner {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     grid-gap: 20px;
+     width: 80% ;
+     max-width: 1200px;
+     top: 260px;
+     margin: auto;
+     padding-top: 270px;
+
+     
+
+}
+
+.characters-conteiner-staff {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+    top: 260px;
+    margin: auto;
+    padding-top: 360px;
+
+
+
+}
+
+.characters-el{
+    display: flex;
+    flex-direction: row;
+    width: 295px;
+    height: 452px;
+   
+}
+
+.characters-img{
+    position: absolute;
+    border-radius: 20px;
+}
+
+.gradient{
+    position: absolute;
+    width: 295px;
+    height: 272px;
+    padding-top: 455px;
+    background: linear-gradient(179.32deg, #0F0F0F -0.99%, rgba(15, 15, 15, 0.74) 51.85%, rgba(15, 15, 15, 0) 86.04%);
+        border-radius: 20px 20px 0px 0px;
+        transform: rotate(-180deg);
+}
+
+.characters-name{
+
+    position: absolute;
+    width: 280px;
+    height: 36px;
+    padding-top: 280px;
+    padding-left: 25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    /* or 36px */
+
+
+    color: #FFFFFF;
+}
+
+
+.characters-altname{
+    position: absolute;
+    width: 243px;
+        height: 22px;
+        padding-top: 321px;
+        padding-left: 25px;
+        
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        /* or 22px */
+    
+    
+        color: #FABF59;
+}
+
+.characters-house{
+    position: absolute;
+        width: 243px;
+        height: 22px;
+        padding-top: 346px;
+        padding-left: 25px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        /* or 22px */
+        color: #FABF59;
+}
+
+.characters-birth{
+    position: absolute;
+        width: 243px;
+        height: 22px;
+        padding-top: 371px;
+        padding-left: 25px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+       
+        color: #FABF59;
+}
+
+.characters-button{
+        position: absolute;
+            width: 185px;
+            height: 22px;
+            padding-left: -25px;
+            padding-top: 409px;
+            background-color: rgba(28, 28, 28, 0);
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;
+        
+            border: none;
+            color: #FFFFFF;
+
+}
+
+.characters-button img {
+
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 170px;
+
+}
