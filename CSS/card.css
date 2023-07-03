@@ -233,3 +233,46 @@ body {
     left: 170px;
 
 }
+
+
+.fullinfo{
+    position: absolute;
+    width: 295px; 
+    height: 452px;
+    top: 0px;
+    margin: auto;
+    border-radius: 20px;
+    background: rgba(29, 29, 29, 1);
+}
+
+.fullinfo div{
+  
+    display: grid;
+    padding-top: 10px;
+    padding-left: 20px;
+        width: 295px;
+        height: 452px;
+      
+}
+
+.fullinfo p{
+    font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+       
+        color:#FFFFFF;
+}
+
+.fullinfo span{
+    
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:  #FABF59;
+}
