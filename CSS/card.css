@@ -96,8 +96,6 @@ body {
      margin: auto;
      padding-top: 270px;
 
-     
-
 }
 
 .characters-conteiner-staff {
@@ -110,7 +108,17 @@ body {
     margin: auto;
     padding-top: 360px;
 
+}
 
+.characters-conteiner-house {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    top: 260px;
+    margin: auto;
+    padding-top: 460px;
 
 }
 
@@ -235,11 +243,14 @@ body {
 }
 
 
+/* HOVER */
+
 .fullinfo{
     position: absolute;
     width: 295px; 
     height: 452px;
     top: 0px;
+    left: 0px;
     margin: auto;
     border-radius: 20px;
     background: rgba(29, 29, 29, 1);
@@ -275,4 +286,61 @@ body {
         letter-spacing: 0em;
         text-align: left;
         color:  #FABF59;
+}
+
+
+
+
+/* HOUS BOTTOM */
+
+.bt-hous-nav{
+   position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 0px;
+    width: 1240px;
+    height: 59px;
+    top: 370px;
+    left: 130px;
+    border-radius: 100px;
+   
+    border: 1px solid rgba(217, 217, 217, 1);
+    
+}
+
+.bt-hous{
+    
+    width: 315px;
+    height: 59px;
+    top: 370px;
+    left: 130px;
+    border-radius: 100px;
+    background-color: rgba(28, 28, 28, 0);
+    border-color: rgba(28, 28, 28, 0);
+
+    font-family: 'Bluu Next';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+}
+
+.bt-hous:hover {
+    background: rgba(249, 181, 12, 1);
+
+    font-family: 'Bluu Next';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: rgba(29, 29, 29, 1);
+}
+
+
+.bt-hous img{
+    width: 35px;
+    height: 38px;
 }

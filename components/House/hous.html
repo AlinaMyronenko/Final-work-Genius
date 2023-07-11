@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employees</title>
+    <link rel="stylesheet" href="/CSS/Reset.css" />
+    <link rel="stylesheet" href="/CSS/card.css" />
+  </head>
+  <body>
+    <div class="oll">
+      <h1 class="title">Персонажі в певному будинку</h1>
+      <nav class="bt-hous-nav">
+        <button
+          class="bt-hous"
+          id="gryffindor"
+          onclick="house.render('Gryffindor')"
+        >
+          <img src="/img/svg/Gryffindor.svg" alt="..." /> GRYFFINDOR
+        </button>
+        <button
+          class="bt-hous"
+          id="slytherin"
+          onclick="house.render('Slytherin')"
+        >
+          <img src="/img/svg/Slytherin.svg" alt="..." /> SLYTHERIN
+        </button>
+        <button
+          class="bt-hous"
+          id="ravenclaw"
+          onclick="house.render('Ravenclaw')"
+        >
+          <img src="/img/svg/Ravenclaw.svg" alt="..." /> RAVENCLAW
+        </button>
+        <button
+          class="bt-hous"
+          id="hufflepuff"
+          onclick="house.render('Hufflepuff')"
+        >
+          <img src="/img/svg/Hufflepuff.svg" alt="..." /> HUFFLEPUFF
+        </button>
+      </nav>
+      <div class="card" id="card-house"></div>
+    </div>
+    <script src="../characters.js"></script>
+    <script src="./hous.js"></script>
+  </body>
+</html>

@@ -1,11 +1,12 @@
-const ROOT_STAFF = document.getElementById('card-staff');
+const ROOT_HOUSE = document.getElementById('card-house');
 
-class CharactersStaff {
-    hover( fullinfo, name) {
+
+class Characters {
+     hover( fullinfo, name) {
         let id = name;
         let full = '';
             CHARACTERS.forEach(({name, alternateNames, species, gend, house, dateOfBirth, yearOfBirth, wizard, ancentry, eyeColour, hairColour, wand, patronus, hogwartsStudent, hogwartsStaff, actor, alive,}) => {
-                if (id == name) {
+                if (id === name) {
                  full += `
                 <nav class="fullinfo"><div>
                 <p>Name: <span> ${name}</span></p>
@@ -32,9 +33,10 @@ class CharactersStaff {
          fullinfo.innerHTML = full;
                
             });
+         
     };
 
-   hoverOut(outinfo, name) {
+    hoverOut(outinfo, name) {
         let out = '';
         let id = name;
         CHARACTERS.forEach((name) => {
@@ -48,11 +50,12 @@ class CharactersStaff {
        outinfo.innerHTML = out;
     }
 
-    render() {
+    render(house) {
         let htmlCatalog = '';
-        CHARACTERS.forEach(({ name, alternateNames, house, dateOfBirth, img, hogwartsStaff }) => {
-            if (hogwartsStaff == true) {
-                htmlCatalog += `
+        let id = house;
+        CHARACTERS.forEach(({ name, alternateNames, house, dateOfBirth, img}) => {
+            if (id === house) {
+                   htmlCatalog += `
             <li class="characters-el">
             <img class="characters-img" src="${img}"/>
             <div class="gradient"></div>
@@ -60,24 +63,27 @@ class CharactersStaff {
             <span class="characters-altname">${alternateNames}</span>
             <span class="characters-house">${house}</span>
             <span class="characters-birth">${dateOfBirth}</span>
-            <button class="characters-button" onmouseover="staff.hover(this, '${name}')" onmouseout="staff.hoverOut(this, '${name}')">Більше інформації<img src="/img/svg/arrow.svg" alt="..." /></button>
+            <button id="btn" class="characters-button" onmouseover="house.hover(this, '${name}')" onmouseout="house.hoverOut(this, '${name}')">Більше інформації<img src="/img/svg/arrow.svg" alt="..." /></button>
             </li>
             `;
+                
             }
             });
 
         const html = `
-        <ul class="characters-conteiner-staff">
+        <ul class="characters-conteiner-house">
         ${htmlCatalog}
         </ul>
         `;
-    
+        
 
-        ROOT_STAFF.innerHTML = html;
+        ROOT_HOUSE.innerHTML = html;
       
     };
 
+
+
 };
 
-const staff = new CharactersStaff();
-staff.render();
+const house = new Characters();
+house.render();
