@@ -63,7 +63,8 @@ class Characters {
             <span class="characters-altname">${alternateNames}</span>
             <span class="characters-house">${house}</span>
             <span class="characters-birth">${dateOfBirth}</span>
-            <button id="btn" class="characters-button" onmouseover="house.hover(this, '${name}')" onmouseout="house.hoverOut(this, '${name}')">Більше інформації<img src="/img/svg/arrow.svg" alt="..." /></button>
+            <button id="btn" class="characters-button">Більше інформації<img src="/img/svg/arrow.svg" alt="..." /></button>
+            <div class="hover" onmouseover="house.hover(this, '${name}')" onmouseout="house.hoverOut(this, '${name}')"></div>
             </li>
             `;
                 

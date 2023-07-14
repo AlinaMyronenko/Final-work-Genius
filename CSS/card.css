@@ -65,6 +65,45 @@ body {
     background: #1D1D1D;
 }
 
+.back{
+    box-sizing: border-box;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 36px;
+        gap: 10px;
+    
+        position: absolute;
+        width: 80px;
+        height: 25px;
+        left: 25px;
+        top: 10px;
+    
+        border: 1px solid #F9B50C;
+        border-radius: 100px;
+        background-color: rgba(28, 28, 28, 0);
+    
+    
+        font-family: 'Bluu Next';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 130%;
+        /* or 23px */
+        text-decoration: none;
+        text-align: center;
+    
+        color: #F9B50C;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+
 .title {
     position: absolute;
     width: 931px;
@@ -123,12 +162,15 @@ body {
 }
 
 .characters-el{
+    position: relative;
     display: flex;
     flex-direction: row;
     width: 295px;
     height: 452px;
    
 }
+
+
 
 .characters-img{
     position: absolute;
@@ -245,6 +287,16 @@ body {
 
 /* HOVER */
 
+.hover {
+    position: absolute;
+    width: 295px;
+    height: 453px;
+    padding-top: 0px;
+    padding-left: 0px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
 .fullinfo{
     position: absolute;
     width: 295px; 
@@ -267,7 +319,7 @@ body {
 }
 
 .fullinfo p{
-    font-family: Inter;
+    font-family: 'Inter';
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
@@ -279,7 +331,7 @@ body {
 
 .fullinfo span{
     
-        font-family: Inter;
+        font-family: 'Inter';
         font-size: 14px;
         font-weight: 500;
         line-height: 20px;
